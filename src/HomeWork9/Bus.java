@@ -17,7 +17,10 @@ public class Bus {
         }
         ArrayList<BusStaton> busStations;
         busStations = createBusStation(countBusStation);
-        System.out.println(busStations.stream().forEach(station -> {(.count(station.inputPeople)) - (.count(station.outputPeople));}));
+        System.out.println("");
+        int ostatok=0;
+        busStations.stream().forEach(station ->
+            System.out.println(ostatok = ostatok+station.inputPeople-station.outputPeople));
 
 
     }
